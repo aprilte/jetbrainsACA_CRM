@@ -1,0 +1,17 @@
+# Project exclude paths
+/.gradle/
+/Cinema Room Manager/task/build/
+/Cinema Room Manager/task/out/
+/Cinema Room Manager/task/out/production/classes/
+/Topics/For loop and lists/Individual taxes/out/
+/Topics/For loop and lists/Individual taxes/out/production/classes/
+/Topics/For loop and lists/Right Rotation/out/
+/Topics/For loop and lists/Right Rotation/out/production/classes/
+/Topics/Introduction to MutableList/Initializing a list/out/
+/Topics/Introduction to MutableList/Initializing a list/out/production/classes/
+/Topics/Introduction to MutableList/Swap/out/
+/Topics/Introduction to MutableList/Swap/out/production/classes/
+/Topics/Work with MutableLists/Help the Lord Commander/out/
+/Topics/Work with MutableLists/Help the Lord Commander/out/production/classes/
+/Topics/Work with MutableLists/Playing with numbers/out/
+/Topics/Work with MutableLists/Playing with numbers/out/production/classes/
