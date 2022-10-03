@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -26,6 +27,10 @@
             <option value="$PROJECT_DIR$/Topics/Introduction to MutableList/Printing the last element" />
             <option value="$PROJECT_DIR$/Topics/Introduction to MutableList/Swap" />
             <option value="$PROJECT_DIR$/Topics/Introduction to MutableList/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Multi-dimensional list/Corners" />
+            <option value="$PROJECT_DIR$/Topics/Multi-dimensional list/Initialization rules" />
+            <option value="$PROJECT_DIR$/Topics/Multi-dimensional list/Kotlin lists" />
+            <option value="$PROJECT_DIR$/Topics/Multi-dimensional list/Theory" />
             <option value="$PROJECT_DIR$/Topics/Work with MutableLists/Adding lists" />
             <option value="$PROJECT_DIR$/Topics/Work with MutableLists/Empty" />
             <option value="$PROJECT_DIR$/Topics/Work with MutableLists/Help the Lord Commander" />
