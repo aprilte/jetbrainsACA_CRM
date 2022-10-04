@@ -8,10 +8,10 @@ fun main() {
     val col = readln().toInt()
 
     var MyCinema = MiniCinema(row, col)
-    MyCinema.printSeatTable()
-//    MyCinema.printTotalIncome()
-    MyCinema.book()
-    MyCinema.printSeatTable()
+    while (!MyCinema.closed) {
+        MyCinema.reception()
+    }
+
 }
 
 class MiniCinema (val row: Int, val col: Int) {
@@ -20,6 +20,7 @@ class MiniCinema (val row: Int, val col: Int) {
     var backHalf: Int = 0
     val boundOfLarge: Int = 60
     var largeCinema: Boolean = false
+    var closed: Boolean = false
     val seatStat = Array(row, { Array(col, {0}) }).toMutableList()
 
     init {
@@ -27,6 +28,18 @@ class MiniCinema (val row: Int, val col: Int) {
         frontHalf = ( row / 2 ) * col
         backHalf = totalSeats - frontHalf
         if(boundOfLarge < totalSeats) largeCinema = true
+    }
+
+    fun reception() {
+        println("1. Show the seats")
+        println("2. Buy a ticket")
+        println("0. Exit")
+        val orderQ = readln().toInt()
+        when (orderQ) {
+            0, -> closed = true
+            1, -> printSeatTable()
+            2, -> book()
+        }
     }
 
     fun printTotalIncome() {
@@ -60,6 +73,8 @@ class MiniCinema (val row: Int, val col: Int) {
                 if (j == this.col) println()
             }
         }
+        //eos
+        println()
     }
 
     fun book() {
