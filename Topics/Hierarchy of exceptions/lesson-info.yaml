@@ -2,3 +2,5 @@ content:
 - Theory
 - Fix the code
 - ArithmeticException
+- IndexOutOfBoundsException
+- RuntimeException
